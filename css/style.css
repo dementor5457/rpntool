@@ -1,0 +1,84 @@
+body {
+	padding-top: 80px;
+}
+
+#eval, #src {
+	display: none;
+}
+
+.navbar-brand {
+	cursor: default;
+}
+
+.input-group {
+	width: 100%;
+}
+
+.progress {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	display: none;
+}
+
+.form-group {
+	margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+	cursor: pointer;
+}
+
+#infInput, #postfix, #pfInput, #ta_steps, #result, #eval_ta_steps {
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+}
+
+#output, #eval_output {
+	display: none;
+}
+
+#ta_steps, #eval_ta_steps {
+	height: 200px;
+	resize: none;
+}
+
+#evalBtn {
+	margin-top: 15px;
+	display: none;
+}
+
+#div_stack, #div_eval_stack {
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+	height: 500px;
+	width: 200px;
+	display: flex;
+	align-self: center;
+	overflow: hidden;
+}
+
+#div_stack_cont, #div_stack_eval_cont {
+	align-self: flex-end;
+	width: 100%;
+}
+
+#pbody_stack, #pbody_eval_stack {
+	text-align: center;
+	height: 617px;
+	display: flex;
+  	justify-content: center;
+}
+
+.stack_node {
+	border-top: 1px solid grey;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#src_pre {
+	padding: 0px;
+    border: 0px;
+}
